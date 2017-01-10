@@ -1,6 +1,6 @@
 import time
-from  './Adafruit-Raspberry-Pi-Python-Code/Adafruit_PWM_Servo_Driver' import Adafruit_I2C
-from  './Adafruit-Raspberry-Pi-Python-Code/Adafruit_PWM_Servo_Driver' import Adafruit_PWM_Servo_Driver
+from  Adafruit-Raspberry-Pi-Python-Code/Adafruit_PWM_Servo_Driver import Adafruit_I2C
+from  Adafruit-Raspberry-Pi-Python-Code/Adafruit_PWM_Servo_Driver import Adafruit_PWM_Servo_Driver
 
 # ===========================================================================
 # Coffee Maker Bot Script

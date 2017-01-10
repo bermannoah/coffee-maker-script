@@ -17,7 +17,7 @@ def setServoPulse(channel, pulse):
   pulseLength /= 4096                     # 12 bits of resolution
   print "%d us per bit" % pulseLength
   pulse *= 1000
-                                                             1,1           Top
+                                                            #  1,1           Top
 
 # servoMin = 150  # Min pulse length out of 4096
 # servoMax = 600  # Max pulse length out of 4096

@@ -22,10 +22,7 @@ def setServoPulse(channel, pulse):
 pwm.setPWMFreq(60)                        # Set frequency to 60 Hz
 
 while (True):
-  # Change speed of continuous servo on channel O
   pwm.setPWM(0, 0, servoMin)
   time.sleep(1)
   pwm.setPWM(0, 0, servoMax)
-  time.sleep(1)
-  
-exit(0)
+  exit(0)

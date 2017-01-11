@@ -24,5 +24,4 @@ pwm.setPWMFreq(60)                        # Set frequency to 60 Hz
 while (True):
   pwm.setPWM(0, 0, servoMax)
   time.sleep(1)
-  pwm.setPWM(0, 0, servoMin)
   exit(0)
